@@ -1,0 +1,191 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+*{
+    padding:0;
+    margin:0;
+    background:white;
+}
+
+body{
+  font-family: 'Roboto Mono', monospace;
+}
+/* Header / Logo*/
+.hero{
+    width:100%;
+    height:15vh;
+    margin-top:20px;
+}
+
+.hero .logo{
+    display:inline-block;
+    width:40%;
+}
+
+.hero .logo h1 img{
+    width:5rem;
+    margin:20px 15px 0px 15px;
+}
+
+.hero .logo h1{
+    display:inline-block;
+    width:100%;
+    font-size:1.7vw;
+    cursor:default;
+}
+
+/* Nav */
+nav{
+    display:inline-block;
+    letter-spacing: .3ch;
+}
+nav ul li a{
+    text-decoration:none;
+    color: black;
+    font-size:1.5vw;
+}
+
+nav ul li{
+    display:inline-block;
+    margin: 0 25px 0 25px;
+}
+
+/* Main Pho Info */
+#main{
+    position:relative;
+    width:100%;
+    color:white;
+}
+
+#main img{
+    width:100%;
+}
+
+#main .main-text{
+    position:absolute;
+    top:20%;
+    left:50%;
+    width:40%;
+    background: rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+#main .main-text h2{
+    margin-bottom:25px;
+    background:transparent;
+}
+
+#main .main-text p{
+    background:transparent;
+    line-height: 4ch;
+}
+
+/* Order Button */
+#order-online{
+    width:100%
+}
+.order-wrapper{
+    width:100%;
+    margin-top:50px;
+}
+.order-content{
+    width:100%;
+    text-align:center;
+}
+
+.order-content h1{
+    font-size:2.5vw;
+}
+
+.order-content h2{
+    font-size:1.5vw;
+}
+
+.button{
+    margin-top:15px;
+    width:100%;
+}
+.order-content #order-button{
+    text-decoration:none;
+    background:#e2e2dd;
+    border: 1px solid #b8b8b7;
+    color:black;
+    padding:5px;
+    border-radius: 5px;
+    margin-top:30px;
+    width:100%;
+    box-shadow: 3px 3px 4px grey;
+}
+
+/* Contact */
+#contact-section{
+    width:100%;
+}
+
+#contact-section .contact-container{
+    margin:20px 0px 0px 300px;
+}
+
+.contact-left table{
+    display:inline-block;
+}
+.contact-left table tr th{
+    display:block;
+    width:100%;
+    text-align: left;
+    padding-top:30px;
+}
+
+.contact-left table tr th h3{
+    display:inline-block;
+}
+
+.contact-left table tr th span{
+    display:inline-block;
+}
+
+.contact-right{
+    display:inline-block;
+    margin-left:100px;
+    vertical-align: top;
+}
+
+/* Footer */
+footer{
+    width:100%;
+}
+
+.copyright{
+    width:100%;
+    margin-top:50px;
+    padding:20px;
+}
+
+.footer-wrapper{
+    display:inline-block;
+}
+
+.footer-wrapper p{
+    display:inline-block;
+    margin-left:50px;
+    
+}
+
+.copyright ul{
+    list-style:none;
+    display:inline-block;
+    margin-left:100px;
+}
+
+.copyright ul li{
+    display:inline-block;
+}
+
+.copyright ul li a{
+    color: black;
+}
+
+@media only screen and (max-width: 800px){
+    .hero{
+        
+    }
+}

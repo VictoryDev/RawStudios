@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pho Q Express</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/hero.css')}}">
+    <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+    <script src="https://kit.fontawesome.com/44555d9723.js"></script>
+</head>
+<body>
+    <header>
+        <div class="hero">
+            <div class="logo">
+                <h1><img src="{{ url_for('static', filename='img/phoq-logo.png')}}" alt="">Pho Q Express</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Online Order</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="main">
+        <img id="pho" src="{{ url_for('static', filename='img/pho-model.jpg')}}" alt="pho">
+        <div class="main-text">
+            <h2>A Pho Q Love Story</h2>
+            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit, amet consectetur. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id enim obcaecati, molestiae mollitia magnam rem eum dolorem fugiat porro inventore sapiente dolor asperiores cumque illo. Sunt accusamus aperiam maiores similique? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur quia quam iure aperiam! Ullam consequuntur numquam vitae, tenetur nobis distinctio veritatis impedit excepturi animi odit vel error doloribus neque. Debitis?</p>
+        </div>
+    </section>
+
+    <section id="order-online">
+        <div class="order-wrapper">
+            <div class="order-content">
+                <h1>Need Pho?</h1>
+                <h2>Order Now</h2>
+                <div class="button">
+                    <a id="order-button" href="#">Dac Biet #1 BB</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-section">
+
+        <div class="contact-container">
+            <h1>=>>Contact</h1>
+            <div class="contact-left">
+                <h2>Contact Information</h2>
+                <table>
+                    <tr>
+                        <th><h3><ion-icon name="phone-portrait"></ion-icon>phone:</h3>&nbsp &nbsp<span>(408)###-###</span></th>
+                        <th><h3><ion-icon name="mail"></ion-icon>email:</h3>&nbsp &nbsp<span>pho2test@test.com</span></th>
+                        <th><h3><ion-icon name="logo-instagram"></ion-icon>instagram:</h3>&nbsp &nbsp<span>https://www.instagram.com/pho_q_express/</span></th>
+
+                    </tr>
+                </table>
+            
+                <div class="contact-right">
+                    <h2>Hours of Operation</h2>
+                    <h2>Monday - Sunday</h2>
+                    <p>11:00am - 10:00pm</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <footer>
+        <div class="copyright">
+            <div class="footer-wrapper">
+                <p>© Victory</p>
+            </div>
+            <ul>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>
